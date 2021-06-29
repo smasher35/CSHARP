@@ -1,0 +1,13 @@
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\bin\Debug\Covid_19_pt.exe.config
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\bin\Debug\Covid_19_pt.exe
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\bin\Debug\Covid_19_pt.pdb
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\bin\Debug\Newtonsoft.Json.dll
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\bin\Debug\Newtonsoft.Json.xml
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\obj\Debug\Covid_19_pt.csprojAssemblyReference.cache
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\obj\Debug\Covid_19_pt.Form1.resources
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\obj\Debug\Covid_19_pt.Properties.Resources.resources
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\obj\Debug\Covid_19_pt.csproj.GenerateResource.cache
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\obj\Debug\Covid_19_pt.csproj.CopyComplete
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\obj\Debug\Covid_19_pt.exe
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\obj\Debug\Covid_19_pt.pdb
+E:\PROGRAMMING\C_SHARP\Covid_19_pt\Covid_19_pt\bin\Debug\AxInterop.WMPLib.dll
