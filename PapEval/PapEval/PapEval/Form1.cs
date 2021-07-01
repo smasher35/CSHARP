@@ -28,6 +28,7 @@ namespace PapEval
             this.BackColor = Color.DimGray;
             gruposList = new List<Grupo>();
             LoadList();
+            toolStatusInfoBar.Text = string.Empty;
             //lstGroups.DataSource = gruposList;
         }
 
@@ -170,6 +171,31 @@ namespace PapEval
             {
                 lstGroups.Focus();
             }
+        }
+
+        private void lstGroups_MouseHover(object sender, EventArgs e)
+        {
+            toolStatusInfoBar.Text = "Double Click on the Groups to EDIT or Visulaize all Data...";
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            toolStatusInfoBar.Text = "Click to Add Groups To Evaluate...";
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            toolStatusInfoBar.Text = "Click to Delete all records...";
+        }
+
+        private void metroButton1_MouseHover(object sender, EventArgs e)
+        {
+            toolStatusInfoBar.Text = "Click to Exit the Application";
+        }
+
+        private void pnlToolbar_MouseHover(object sender, EventArgs e)
+        {
+            toolStatusInfoBar.Text = string.Empty;
         }
     }
 }

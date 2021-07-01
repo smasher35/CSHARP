@@ -32,6 +32,9 @@ namespace PapEval
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.htmlToolTip1 = new MetroFramework.Drawing.Html.HtmlToolTip();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStatusInfoBar = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolSoftwareversion = new System.Windows.Forms.ToolStripStatusLabel();
             this.pnlToolbar = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -40,6 +43,7 @@ namespace PapEval
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.pnlData = new System.Windows.Forms.Panel();
             this.lstGroups = new System.Windows.Forms.ListBox();
+            this.statusStrip1.SuspendLayout();
             this.pnlToolbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -52,11 +56,37 @@ namespace PapEval
             // 
             // statusStrip1
             // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.toolStatusInfoBar,
+            this.toolSoftwareversion});
             this.statusStrip1.Location = new System.Drawing.Point(20, 907);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(1560, 22);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(115, 17);
+            this.toolStripStatusLabel1.Text = "by Paulo Penicheiro";
+            // 
+            // toolStatusInfoBar
+            // 
+            this.toolStatusInfoBar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.toolStatusInfoBar.Name = "toolStatusInfoBar";
+            this.toolStatusInfoBar.Size = new System.Drawing.Size(1173, 17);
+            this.toolStatusInfoBar.Spring = true;
+            this.toolStatusInfoBar.Text = "toolStripStatusLabel2";
+            // 
+            // toolSoftwareversion
+            // 
+            this.toolSoftwareversion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.toolSoftwareversion.Name = "toolSoftwareversion";
+            this.toolSoftwareversion.Size = new System.Drawing.Size(257, 17);
+            this.toolSoftwareversion.Text = "PAPEval Version 1.0 @2021 All Rihts reserved";
             // 
             // pnlToolbar
             // 
@@ -72,6 +102,7 @@ namespace PapEval
             this.pnlToolbar.Name = "pnlToolbar";
             this.pnlToolbar.Size = new System.Drawing.Size(1560, 73);
             this.pnlToolbar.TabIndex = 1;
+            this.pnlToolbar.MouseHover += new System.EventHandler(this.pnlToolbar_MouseHover);
             // 
             // pictureBox2
             // 
@@ -84,6 +115,7 @@ namespace PapEval
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
             // 
             // label2
             // 
@@ -97,6 +129,7 @@ namespace PapEval
             this.label2.TabIndex = 2;
             this.label2.Text = "Clear List";
             this.label2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.label2.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
             // 
             // label1
             // 
@@ -110,6 +143,7 @@ namespace PapEval
             this.label1.TabIndex = 2;
             this.label1.Text = "Add Group";
             this.label1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.label1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
             // 
             // pictureBox1
             // 
@@ -122,6 +156,7 @@ namespace PapEval
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
             // 
             // metroButton1
             // 
@@ -142,6 +177,7 @@ namespace PapEval
             this.metroButton1.UseSelectable = true;
             this.metroButton1.UseVisualStyleBackColor = false;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            this.metroButton1.MouseHover += new System.EventHandler(this.metroButton1_MouseHover);
             // 
             // pnlData
             // 
@@ -170,6 +206,7 @@ namespace PapEval
             this.lstGroups.TabIndex = 0;
             this.lstGroups.SelectedIndexChanged += new System.EventHandler(this.lstGroups_SelectedIndexChanged);
             this.lstGroups.DoubleClick += new System.EventHandler(this.lstGroups_DoubleClick);
+            this.lstGroups.MouseHover += new System.EventHandler(this.lstGroups_MouseHover);
             // 
             // frmMain
             // 
@@ -185,6 +222,8 @@ namespace PapEval
             this.Text = "PapEval";
             this.Activated += new System.EventHandler(this.frmMain_Activated);
             this.Load += new System.EventHandler(this.frmMain_Load);
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.pnlToolbar.ResumeLayout(false);
             this.pnlToolbar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -207,6 +246,9 @@ namespace PapEval
         private System.Windows.Forms.ListBox lstGroups;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStatusInfoBar;
+        private System.Windows.Forms.ToolStripStatusLabel toolSoftwareversion;
     }
 }
 
