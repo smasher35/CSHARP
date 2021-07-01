@@ -33,12 +33,15 @@ namespace PapEval
             this.htmlToolTip1 = new MetroFramework.Drawing.Html.HtmlToolTip();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.pnlToolbar = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.pnlData = new System.Windows.Forms.Panel();
             this.lstGroups = new System.Windows.Forms.ListBox();
             this.pnlToolbar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlData.SuspendLayout();
             this.SuspendLayout();
@@ -58,6 +61,8 @@ namespace PapEval
             // pnlToolbar
             // 
             this.pnlToolbar.BackColor = System.Drawing.Color.Gray;
+            this.pnlToolbar.Controls.Add(this.pictureBox2);
+            this.pnlToolbar.Controls.Add(this.label2);
             this.pnlToolbar.Controls.Add(this.label1);
             this.pnlToolbar.Controls.Add(this.pictureBox1);
             this.pnlToolbar.Controls.Add(this.metroButton1);
@@ -68,18 +73,43 @@ namespace PapEval
             this.pnlToolbar.Size = new System.Drawing.Size(1560, 73);
             this.pnlToolbar.TabIndex = 1;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(181, 10);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(50, 53);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(238, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 21);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Clear List";
+            this.label2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(66, 27);
+            this.label1.Location = new System.Drawing.Point(66, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 21);
             this.label1.TabIndex = 2;
             this.label1.Text = "Add Group";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox1
             // 
@@ -130,6 +160,7 @@ namespace PapEval
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lstGroups.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.lstGroups.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lstGroups.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lstGroups.FormattingEnabled = true;
             this.lstGroups.ItemHeight = 32;
@@ -156,6 +187,7 @@ namespace PapEval
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.pnlToolbar.ResumeLayout(false);
             this.pnlToolbar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlData.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -173,6 +205,8 @@ namespace PapEval
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ListBox lstGroups;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label2;
     }
 }
 

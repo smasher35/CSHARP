@@ -32,7 +32,7 @@ E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\bin\Debug\net5.0-windows\PapEv
 E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\bin\Debug\net5.0-windows\MetroFramework.Design.dll
 E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\bin\Debug\net5.0-windows\MetroFramework.Fonts.dll
 E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\bin\Debug\net5.0-windows\MetroFramework.dll
-E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\obj\Debug\net5.0-windows\PapEval.csproj.AssemblyReference.cache
+E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\obj\Debug\net5.0-windows\PapEval.editGrades.resources
 E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\obj\Debug\net5.0-windows\PapEval.frmMain.resources
 E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\obj\Debug\net5.0-windows\PapEval.frmGroup.resources
 E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\obj\Debug\net5.0-windows\PapEval.Properties.Resources.resources
@@ -46,4 +46,4 @@ E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\obj\Debug\net5.0-windows\PapEv
 E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\obj\Debug\net5.0-windows\ref\PapEval.dll
 E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\obj\Debug\net5.0-windows\PapEval.pdb
 E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\obj\Debug\net5.0-windows\PapEval.genruntimeconfig.cache
-E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\obj\Debug\net5.0-windows\PapEval.editGrades.resources
+E:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\obj\Debug\net5.0-windows\PapEval.csproj.AssemblyReference.cache

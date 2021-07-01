@@ -318,36 +318,36 @@ namespace PapEval
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(84, 174);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(77, 21);
+            this.label7.Size = new System.Drawing.Size(88, 21);
             this.label7.TabIndex = 0;
-            this.label7.Text = "PROJECT";
+            this.label7.Text = "PROJECT *";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(84, 237);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 21);
+            this.label6.Size = new System.Drawing.Size(123, 21);
             this.label6.TabIndex = 0;
-            this.label6.Text = "FINAL GRADE";
+            this.label6.Text = "FINAL GRADE *";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(84, 111);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 21);
+            this.label5.Size = new System.Drawing.Size(81, 21);
             this.label5.TabIndex = 0;
-            this.label5.Text = "REPORT";
+            this.label5.Text = "REPORT *";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(84, 49);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(127, 21);
+            this.label4.Size = new System.Drawing.Size(138, 21);
             this.label4.TabIndex = 0;
-            this.label4.Text = "PRESENTATION";
+            this.label4.Text = "PRESENTATION *";
             // 
             // grpAlunos
             // 
@@ -390,9 +390,9 @@ namespace PapEval
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(7, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 21);
+            this.label1.Size = new System.Drawing.Size(94, 21);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Student 1";
+            this.label1.Text = "Student 1 *";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox4
@@ -436,7 +436,7 @@ namespace PapEval
             this.grpGroupName.Size = new System.Drawing.Size(616, 65);
             this.grpGroupName.TabIndex = 2;
             this.grpGroupName.TabStop = false;
-            this.grpGroupName.Text = "GROUP NAME";
+            this.grpGroupName.Text = "GROUP NAME *";
             this.grpGroupName.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // textBox1

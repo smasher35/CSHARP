@@ -15,12 +15,17 @@ namespace PapEval
         private List<Grupo> tempList = new List<Grupo>();
         private int index;
         private frmMain form1;
+        private Grupo tempGroup;
+        private bool isEdited=false;
         public editGrades(int index, frmMain formMain)
         {
             InitializeComponent();
             this.index = index;
+            tempGroup = new Grupo();
             form1 = formMain;
             tempList = form1.getGroups();
+            frmSave.Enabled = false;
+            
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -55,7 +60,9 @@ namespace PapEval
 
         private void txtGroupName_TextChanged(object sender, EventArgs e)
         {
-
+            isEdited = true;
+            frmSave.Enabled = true;
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -65,10 +72,36 @@ namespace PapEval
 
         private void trckPresentation_ValueChanged(object sender, EventArgs e)
         {
+            isEdited = true;
+            frmSave.Enabled = true;
             txtPresentationGrade.Text = trckPresentation.Value.ToString();
             txtReportGrade.Text = trckReport.Value.ToString();
             txtProjectGrade.Text = trckProject.Value.ToString();
             txtFinalGrade.Text = trckFinal.Value.ToString();
+        }
+
+        private void frmSave_Click(object sender, EventArgs e)
+        {
+            if (isEdited)
+            {
+
+                tempGroup.name = txtGroupName.Text;
+                tempGroup.aluno1 = txtAluno1.Text;
+                tempGroup.aluno2 = txtAluno2.Text;
+                tempGroup.aluno3 = txtAluno3.Text;
+                tempGroup.presentationGrade = trckPresentation.Value;
+                tempGroup.reportGrade = trckReport.Value;
+                tempGroup.projectGrade = trckProject.Value;
+                tempGroup.finalGrade = trckFinal.Value;
+                tempGroup.obs = txtObs.Text;
+
+                form1.updateGroup(index, tempGroup);
+            }
+
+
+            this.Close();
+
+
         }
     }
 }

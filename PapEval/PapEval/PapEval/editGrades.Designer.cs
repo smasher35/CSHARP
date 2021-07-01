@@ -99,6 +99,7 @@ namespace PapEval
             this.frmSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.frmSave.BackColor = System.Drawing.Color.Green;
             this.frmSave.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.frmSave.Enabled = false;
             this.frmSave.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.frmSave.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.frmSave.Location = new System.Drawing.Point(1041, 7);
@@ -107,6 +108,7 @@ namespace PapEval
             this.frmSave.TabIndex = 2;
             this.frmSave.Text = "SAVE";
             this.frmSave.UseVisualStyleBackColor = false;
+            this.frmSave.Click += new System.EventHandler(this.frmSave_Click);
             // 
             // panel2
             // 
@@ -142,6 +144,7 @@ namespace PapEval
             this.txtObs.Name = "txtObs";
             this.txtObs.Size = new System.Drawing.Size(1148, 118);
             this.txtObs.TabIndex = 0;
+            this.txtObs.TextChanged += new System.EventHandler(this.txtGroupName_TextChanged);
             // 
             // groupBox2
             // 
@@ -259,11 +262,11 @@ namespace PapEval
             // txtFinalGrade
             // 
             this.txtFinalGrade.BackColor = System.Drawing.Color.IndianRed;
-            this.txtFinalGrade.Enabled = false;
-            this.txtFinalGrade.Font = new System.Drawing.Font("Segoe UI", 90F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtFinalGrade.Font = new System.Drawing.Font("Bebas", 89.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtFinalGrade.Location = new System.Drawing.Point(854, 48);
             this.txtFinalGrade.Multiline = true;
             this.txtFinalGrade.Name = "txtFinalGrade";
+            this.txtFinalGrade.ReadOnly = true;
             this.txtFinalGrade.Size = new System.Drawing.Size(202, 184);
             this.txtFinalGrade.TabIndex = 0;
             this.txtFinalGrade.Text = "17";
@@ -272,11 +275,11 @@ namespace PapEval
             // txtProjectGrade
             // 
             this.txtProjectGrade.BackColor = System.Drawing.Color.LimeGreen;
-            this.txtProjectGrade.Enabled = false;
-            this.txtProjectGrade.Font = new System.Drawing.Font("Segoe UI", 90F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtProjectGrade.Font = new System.Drawing.Font("Bebas", 89.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtProjectGrade.Location = new System.Drawing.Point(602, 48);
             this.txtProjectGrade.Multiline = true;
             this.txtProjectGrade.Name = "txtProjectGrade";
+            this.txtProjectGrade.ReadOnly = true;
             this.txtProjectGrade.Size = new System.Drawing.Size(202, 184);
             this.txtProjectGrade.TabIndex = 0;
             this.txtProjectGrade.Text = "15";
@@ -285,11 +288,11 @@ namespace PapEval
             // txtReportGrade
             // 
             this.txtReportGrade.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.txtReportGrade.Enabled = false;
-            this.txtReportGrade.Font = new System.Drawing.Font("Segoe UI", 90F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtReportGrade.Font = new System.Drawing.Font("Bebas", 89.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtReportGrade.Location = new System.Drawing.Point(350, 48);
             this.txtReportGrade.Multiline = true;
             this.txtReportGrade.Name = "txtReportGrade";
+            this.txtReportGrade.ReadOnly = true;
             this.txtReportGrade.Size = new System.Drawing.Size(202, 184);
             this.txtReportGrade.TabIndex = 0;
             this.txtReportGrade.Text = "18";
@@ -298,11 +301,11 @@ namespace PapEval
             // txtPresentationGrade
             // 
             this.txtPresentationGrade.BackColor = System.Drawing.Color.Gold;
-            this.txtPresentationGrade.Enabled = false;
-            this.txtPresentationGrade.Font = new System.Drawing.Font("Segoe UI", 90F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtPresentationGrade.Font = new System.Drawing.Font("Bebas", 89.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtPresentationGrade.Location = new System.Drawing.Point(98, 48);
             this.txtPresentationGrade.Multiline = true;
             this.txtPresentationGrade.Name = "txtPresentationGrade";
+            this.txtPresentationGrade.ReadOnly = true;
             this.txtPresentationGrade.Size = new System.Drawing.Size(202, 184);
             this.txtPresentationGrade.TabIndex = 0;
             this.txtPresentationGrade.Text = "20";
@@ -334,6 +337,7 @@ namespace PapEval
             this.txtAluno3.Name = "txtAluno3";
             this.txtAluno3.Size = new System.Drawing.Size(651, 39);
             this.txtAluno3.TabIndex = 2;
+            this.txtAluno3.TextChanged += new System.EventHandler(this.txtGroupName_TextChanged);
             // 
             // txtAluno2
             // 
@@ -344,6 +348,7 @@ namespace PapEval
             this.txtAluno2.Name = "txtAluno2";
             this.txtAluno2.Size = new System.Drawing.Size(651, 39);
             this.txtAluno2.TabIndex = 2;
+            this.txtAluno2.TextChanged += new System.EventHandler(this.txtGroupName_TextChanged);
             // 
             // txtAluno1
             // 
@@ -354,6 +359,7 @@ namespace PapEval
             this.txtAluno1.Name = "txtAluno1";
             this.txtAluno1.Size = new System.Drawing.Size(651, 39);
             this.txtAluno1.TabIndex = 2;
+            this.txtAluno1.TextChanged += new System.EventHandler(this.txtGroupName_TextChanged);
             // 
             // txtGroupName
             // 

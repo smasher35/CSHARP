@@ -33,14 +33,22 @@ namespace PapEval
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
-            SaveList();
-            this.Close();
+            DialogResult result = MessageBox.Show("[-] - Exit the Application??", "QUESTION", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                SaveList();
+                this.Close();
+            }else
+            {
+                lstGroups.Focus();
+            }
         }
 
         private void SaveList()
         {
-            string dir = @"e:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\bin\Debug\net5.0-windows";
-            string serializationFile = Path.Combine(dir, "grupos.bin");
+            string path = Directory.GetCurrentDirectory();
+            //string dir = @"e:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\bin\Debug\net5.0-windows";
+            string serializationFile = Path.Combine(path, "grupos.bin");
 
             //serialize
             using (Stream stream = File.Open(serializationFile, FileMode.Create))
@@ -53,8 +61,9 @@ namespace PapEval
 
         private void LoadList()
         {
-            string dir = @"e:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\bin\Debug\net5.0-windows";
-            string serializationFile = Path.Combine(dir, "grupos.bin");
+            string path = Directory.GetCurrentDirectory();
+            //string dir = @"e:\PROGRAMING\CSHARP_APPS\PapEval\PapEval\PapEval\bin\Debug\net5.0-windows";
+            string serializationFile = Path.Combine(path, "grupos.bin");
             //deserialize
             using (Stream stream = File.Open(serializationFile, FileMode.Open))
             {
@@ -65,9 +74,13 @@ namespace PapEval
 
             foreach (var grupo in gruposList)
             {
-                lstGroups.Items.Add("GRUPO: " + grupo.id + " --> Nome: " + grupo.name + " --> Alunos:  " + grupo.aluno1 + " - " + grupo.aluno2 + " --> " + "NOTA FINAL: " + grupo.finalGrade);
+                populateListBox(grupo);
             }
+        }
 
+        private void populateListBox(Grupo grupo)
+        {
+            lstGroups.Items.Add("GRUPO: " + grupo.id + " --> Nome: " + grupo.name + " --> Alunos:  " + grupo.aluno1 + " - " + grupo.aluno2 + " --> " + grupo.aluno3 + " --> " + "NOTA FINAL: " + grupo.finalGrade);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -76,21 +89,14 @@ namespace PapEval
             newGroup.ShowDialog(this);
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            frmGroup newGroup = new frmGroup(this);
-            newGroup.ShowDialog();
-        }
-
         public int totAlunos()
         {
             return gruposList.Count();
         }
         public void AddGroups(Grupo grupo)
-        {
-            
+        {  
             gruposList.Add(grupo);
-            lstGroups.Items.Add("GRUPO: " + grupo.id + " --> Nome: " +  grupo.name + " --> Alunos:  "+ grupo.aluno1 + " - " + grupo.aluno2 + " --> " + "NOTA FINAL: " + grupo.finalGrade);
+            populateListBox(grupo);
         }
 
         public void updateGroup(int index, Grupo grupo)
@@ -101,9 +107,16 @@ namespace PapEval
             gruposList[index].aluno3 = grupo.aluno3;
             gruposList[index].presentationGrade = grupo.presentationGrade;
             gruposList[index].reportGrade = grupo.reportGrade;
-            gruposList[index].projectGrade= grupo.projectGrade;
+            gruposList[index].projectGrade = grupo.projectGrade;
             gruposList[index].finalGrade = grupo.finalGrade;
             gruposList[index].obs = grupo.obs;
+
+
+            lstGroups.Items.Clear();
+            foreach (var group in gruposList)
+            {
+                populateListBox(group);
+            }
         }
 
         public List<Grupo> getGroups()
@@ -143,6 +156,20 @@ namespace PapEval
             editGrades form3 = new editGrades(index, this);
             form3.ShowDialog();
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            DialogResult response = MessageBox.Show("[-] - Warning... All Data Will Be Deleted!!", "WARNING", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (response == DialogResult.Yes)
+            {
+                lstGroups.Items.Clear();
+                gruposList.Clear();
+            }else
+            {
+                lstGroups.Focus();
+            }
         }
     }
 }
