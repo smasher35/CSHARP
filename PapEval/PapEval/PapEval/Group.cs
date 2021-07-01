@@ -122,7 +122,7 @@ namespace PapEval
         private void panel2_Enter(object sender, EventArgs e)
         {
             
-    }
+        }
 
         private void frmGroup_Shown(object sender, EventArgs e)
         {

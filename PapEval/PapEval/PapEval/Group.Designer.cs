@@ -147,6 +147,7 @@ namespace PapEval
             this.textBox5.Location = new System.Drawing.Point(7, 22);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
+            this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox5.Size = new System.Drawing.Size(599, 162);
             this.textBox5.TabIndex = 0;
             // 

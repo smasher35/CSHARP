@@ -142,6 +142,7 @@ namespace PapEval
             this.txtObs.Location = new System.Drawing.Point(6, 35);
             this.txtObs.Multiline = true;
             this.txtObs.Name = "txtObs";
+            this.txtObs.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtObs.Size = new System.Drawing.Size(1148, 118);
             this.txtObs.TabIndex = 0;
             this.txtObs.TextChanged += new System.EventHandler(this.txtGroupName_TextChanged);

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace PapEval
 {
     [Serializable]
-    public class Grupo
+    public class  Grupo
     {
         public int id { get; set; }
         public string name { get; set; }
