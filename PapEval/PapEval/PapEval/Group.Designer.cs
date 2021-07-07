@@ -182,9 +182,9 @@ namespace PapEval
             this.lblFinalGrade.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblFinalGrade.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblFinalGrade.ForeColor = System.Drawing.Color.Gold;
-            this.lblFinalGrade.Location = new System.Drawing.Point(524, 213);
+            this.lblFinalGrade.Location = new System.Drawing.Point(484, 213);
             this.lblFinalGrade.Name = "lblFinalGrade";
-            this.lblFinalGrade.Size = new System.Drawing.Size(60, 54);
+            this.lblFinalGrade.Size = new System.Drawing.Size(100, 54);
             this.lblFinalGrade.TabIndex = 3;
             this.lblFinalGrade.Text = "0";
             this.lblFinalGrade.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -194,9 +194,9 @@ namespace PapEval
             this.lblProject.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblProject.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblProject.ForeColor = System.Drawing.Color.Gold;
-            this.lblProject.Location = new System.Drawing.Point(524, 153);
+            this.lblProject.Location = new System.Drawing.Point(484, 153);
             this.lblProject.Name = "lblProject";
-            this.lblProject.Size = new System.Drawing.Size(60, 54);
+            this.lblProject.Size = new System.Drawing.Size(100, 54);
             this.lblProject.TabIndex = 3;
             this.lblProject.Text = "0";
             this.lblProject.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -206,9 +206,9 @@ namespace PapEval
             this.lblReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblReport.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblReport.ForeColor = System.Drawing.Color.Gold;
-            this.lblReport.Location = new System.Drawing.Point(524, 92);
+            this.lblReport.Location = new System.Drawing.Point(484, 92);
             this.lblReport.Name = "lblReport";
-            this.lblReport.Size = new System.Drawing.Size(60, 54);
+            this.lblReport.Size = new System.Drawing.Size(100, 54);
             this.lblReport.TabIndex = 3;
             this.lblReport.Text = "0";
             this.lblReport.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -218,9 +218,9 @@ namespace PapEval
             this.lblPresentation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblPresentation.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblPresentation.ForeColor = System.Drawing.Color.Gold;
-            this.lblPresentation.Location = new System.Drawing.Point(524, 31);
+            this.lblPresentation.Location = new System.Drawing.Point(484, 31);
             this.lblPresentation.Name = "lblPresentation";
-            this.lblPresentation.Size = new System.Drawing.Size(60, 54);
+            this.lblPresentation.Size = new System.Drawing.Size(100, 54);
             this.lblPresentation.TabIndex = 3;
             this.lblPresentation.Text = "0";
             this.lblPresentation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

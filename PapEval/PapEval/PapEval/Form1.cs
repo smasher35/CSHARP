@@ -81,7 +81,7 @@ namespace PapEval
 
         private void populateListBox(Grupo grupo)
         {
-            lstGroups.Items.Add("GRUPO: " + grupo.id + " --> Nome: " + grupo.name + " --> Alunos:  " + grupo.aluno1 + " - " + grupo.aluno2 + " --> " + grupo.aluno3 + " --> " + "NOTA FINAL: " + grupo.finalGrade);
+            lstGroups.Items.Add("[+] - GRUPO: " + grupo.id + " --> Nome: " + grupo.name + " --> Alunos:  " + grupo.aluno1 + " - " + grupo.aluno2 + " --> " + grupo.aluno3 + " --> " + "NOTA FINAL: " + grupo.finalGrade);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
