@@ -1,0 +1,27 @@
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\bin\Debug\BCryptor.exe.config
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\bin\Debug\BCryptor.exe
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\bin\Debug\BCryptor.pdb
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\bin\Debug\BCrypt.Net.dll
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\bin\Debug\MetroFramework.Design.dll
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\bin\Debug\MetroFramework.dll
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\bin\Debug\MetroFramework.Fonts.dll
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\bin\Debug\BCrypt.Net.xml
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\obj\Debug\BCryptor.Form1.resources
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\obj\Debug\BCryptor.Properties.Resources.resources
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\obj\Debug\BCryptor.csproj.GenerateResource.Cache
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\obj\Debug\BCryptor.csproj.CoreCompileInputs.cache
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\obj\Debug\BCryptor.exe
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\obj\Debug\BCryptor.pdb
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\obj\Debug\BCryptor.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\obj\Debug\BCryptor.About.resources
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\bin\Debug\BCryptor.exe.manifest
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\bin\Debug\BCryptor.application
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\obj\Debug\BCryptor.exe.manifest
+d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\obj\Debug\BCryptor.application
+E:\PROGRAMMING\C_SHARP\BCryptor-master\BCryptor\obj\Debug\BCryptor.csprojAssemblyReference.cache
+E:\PROGRAMMING\C_SHARP\BCryptor-master\BCryptor\obj\Debug\BCryptor.About.resources
+E:\PROGRAMMING\C_SHARP\BCryptor-master\BCryptor\obj\Debug\BCryptor.Form1.resources
+E:\PROGRAMMING\C_SHARP\BCryptor-master\BCryptor\obj\Debug\BCryptor.Properties.Resources.resources
+E:\PROGRAMMING\C_SHARP\BCryptor-master\BCryptor\obj\Debug\BCryptor.csproj.GenerateResource.cache
+E:\PROGRAMMING\C_SHARP\BCryptor-master\BCryptor\obj\Debug\BCryptor.exe
+E:\PROGRAMMING\C_SHARP\BCryptor-master\BCryptor\obj\Debug\BCryptor.pdb

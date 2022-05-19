@@ -1,0 +1,13 @@
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\obj\Debug\atrasosCML.csprojAssemblyReference.cache
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\bin\Debug\atrasosCML.exe.config
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\bin\Debug\atrasosCML.exe
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\bin\Debug\atrasosCML.pdb
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\bin\Debug\MetroFramework.dll
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\bin\Debug\MetroFramework.Fonts.dll
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\obj\Debug\atrasosCML.historico.resources
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\obj\Debug\atrasosCML.Minutes.resources
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\obj\Debug\atrasosCML.Properties.Resources.resources
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\obj\Debug\atrasosCML.csproj.GenerateResource.cache
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\obj\Debug\atrasosCML.csproj.CopyComplete
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\obj\Debug\atrasosCML.exe
+E:\PROGRAMMING\C_SHARP\atrasosCML\atrasosCML\obj\Debug\atrasosCML.pdb
