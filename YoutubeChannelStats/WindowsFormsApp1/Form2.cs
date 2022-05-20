@@ -131,5 +131,10 @@ namespace WindowsFormsApp1
             txtAPIKey.Enabled = false;
             btnPastAPI.Enabled = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtAPIKey.Text = Clipboard.GetText();
+        }
     }
 }

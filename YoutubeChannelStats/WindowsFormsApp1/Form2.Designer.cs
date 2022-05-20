@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
@@ -38,11 +37,11 @@
             this.txtChannelId = new System.Windows.Forms.TextBox();
             this.txtAPIKey = new System.Windows.Forms.TextBox();
             this.btnPasteChannel = new System.Windows.Forms.Button();
-            this.btnPastAPI = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioChangeChannelID = new System.Windows.Forms.RadioButton();
-            this.radioChangeAPIKey = new System.Windows.Forms.RadioButton();
             this.radioChangeBoth = new System.Windows.Forms.RadioButton();
+            this.radioChangeAPIKey = new System.Windows.Forms.RadioButton();
+            this.radioChangeChannelID = new System.Windows.Forms.RadioButton();
+            this.btnPastAPI = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -138,25 +137,12 @@
             // btnPasteChannel
             // 
             this.btnPasteChannel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPasteChannel.Image = ((System.Drawing.Image)(resources.GetObject("btnPasteChannel.Image")));
             this.btnPasteChannel.Location = new System.Drawing.Point(753, 194);
             this.btnPasteChannel.Name = "btnPasteChannel";
             this.btnPasteChannel.Size = new System.Drawing.Size(34, 34);
             this.btnPasteChannel.TabIndex = 5;
             this.btnPasteChannel.UseVisualStyleBackColor = true;
             this.btnPasteChannel.Click += new System.EventHandler(this.btnPasteChannel_Click);
-            // 
-            // btnPastAPI
-            // 
-            this.btnPastAPI.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPastAPI.Image = ((System.Drawing.Image)(resources.GetObject("btnPastAPI.Image")));
-            this.btnPastAPI.Location = new System.Drawing.Point(753, 301);
-            this.btnPastAPI.Name = "btnPastAPI";
-            this.btnPastAPI.Size = new System.Drawing.Size(34, 34);
-            this.btnPastAPI.TabIndex = 6;
-            this.btnPastAPI.Text = "button2";
-            this.btnPastAPI.UseVisualStyleBackColor = true;
-            this.btnPastAPI.Click += new System.EventHandler(this.btnPastAPI_Click);
             // 
             // groupBox1
             // 
@@ -172,17 +158,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Options";
             // 
-            // radioChangeChannelID
+            // radioChangeBoth
             // 
-            this.radioChangeChannelID.AutoSize = true;
-            this.radioChangeChannelID.Location = new System.Drawing.Point(24, 25);
-            this.radioChangeChannelID.Name = "radioChangeChannelID";
-            this.radioChangeChannelID.Size = new System.Drawing.Size(184, 24);
-            this.radioChangeChannelID.TabIndex = 0;
-            this.radioChangeChannelID.TabStop = true;
-            this.radioChangeChannelID.Text = "Change Channel ID";
-            this.radioChangeChannelID.UseVisualStyleBackColor = true;
-            this.radioChangeChannelID.CheckedChanged += new System.EventHandler(this.radioChangeChannelID_CheckedChanged);
+            this.radioChangeBoth.AutoSize = true;
+            this.radioChangeBoth.Location = new System.Drawing.Point(623, 25);
+            this.radioChangeBoth.Name = "radioChangeBoth";
+            this.radioChangeBoth.Size = new System.Drawing.Size(132, 24);
+            this.radioChangeBoth.TabIndex = 2;
+            this.radioChangeBoth.TabStop = true;
+            this.radioChangeBoth.Text = "Change Both";
+            this.radioChangeBoth.UseVisualStyleBackColor = true;
+            this.radioChangeBoth.CheckedChanged += new System.EventHandler(this.radioChangeBoth_CheckedChanged);
             // 
             // radioChangeAPIKey
             // 
@@ -196,17 +182,26 @@
             this.radioChangeAPIKey.UseVisualStyleBackColor = true;
             this.radioChangeAPIKey.CheckedChanged += new System.EventHandler(this.radioChangeAPIKey_CheckedChanged);
             // 
-            // radioChangeBoth
+            // radioChangeChannelID
             // 
-            this.radioChangeBoth.AutoSize = true;
-            this.radioChangeBoth.Location = new System.Drawing.Point(623, 25);
-            this.radioChangeBoth.Name = "radioChangeBoth";
-            this.radioChangeBoth.Size = new System.Drawing.Size(132, 24);
-            this.radioChangeBoth.TabIndex = 2;
-            this.radioChangeBoth.TabStop = true;
-            this.radioChangeBoth.Text = "Change Both";
-            this.radioChangeBoth.UseVisualStyleBackColor = true;
-            this.radioChangeBoth.CheckedChanged += new System.EventHandler(this.radioChangeBoth_CheckedChanged);
+            this.radioChangeChannelID.AutoSize = true;
+            this.radioChangeChannelID.Location = new System.Drawing.Point(24, 25);
+            this.radioChangeChannelID.Name = "radioChangeChannelID";
+            this.radioChangeChannelID.Size = new System.Drawing.Size(184, 24);
+            this.radioChangeChannelID.TabIndex = 0;
+            this.radioChangeChannelID.TabStop = true;
+            this.radioChangeChannelID.Text = "Change Channel ID";
+            this.radioChangeChannelID.UseVisualStyleBackColor = true;
+            this.radioChangeChannelID.CheckedChanged += new System.EventHandler(this.radioChangeChannelID_CheckedChanged);
+            // 
+            // btnPastAPI
+            // 
+            this.btnPastAPI.Location = new System.Drawing.Point(754, 304);
+            this.btnPastAPI.Name = "btnPastAPI";
+            this.btnPastAPI.Size = new System.Drawing.Size(33, 29);
+            this.btnPastAPI.TabIndex = 8;
+            this.btnPastAPI.UseVisualStyleBackColor = true;
+            this.btnPastAPI.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
@@ -214,8 +209,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(800, 359);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnPastAPI);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnPasteChannel);
             this.Controls.Add(this.txtAPIKey);
             this.Controls.Add(this.txtChannelId);
@@ -247,10 +242,10 @@
         private System.Windows.Forms.TextBox txtChannelId;
         private System.Windows.Forms.TextBox txtAPIKey;
         private System.Windows.Forms.Button btnPasteChannel;
-        private System.Windows.Forms.Button btnPastAPI;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioChangeBoth;
         private System.Windows.Forms.RadioButton radioChangeAPIKey;
         private System.Windows.Forms.RadioButton radioChangeChannelID;
+        private System.Windows.Forms.Button btnPastAPI;
     }
 }
