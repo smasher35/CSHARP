@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.metroTile3 = new MetroFramework.Controls.MetroTile();
             this.metroTile2 = new MetroFramework.Controls.MetroTile();
@@ -51,6 +52,7 @@
             this.toolStripStatusVersion = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusMessages = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusDate = new System.Windows.Forms.ToolStripStatusLabel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.metroTile1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.statusStrip2.SuspendLayout();
@@ -431,6 +433,7 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusVersion;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusMessages;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusDate;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

@@ -19,16 +19,26 @@ namespace WindowsFormsApp1
             InitializeComponent();
             ConvertCurrentYear();
             InitStatusLabels();
+            GetCurrentTime();
             
         }
 
-        private string GetCurrentTime()
+        private void GetCurrentTime()
+        {
+            timer1 = new Timer();
+            timer1.Tick += new EventHandler(timer1_Tick);
+            timer1.Interval = 1000; // in miliseconds
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
         {
             string HoraHoje;
             HoraHoje = DateTime.Now.ToString("h:mm:ss tt");
-            return HoraHoje;
+            toolStripStatusDate.Text = GetCurrentDate() + " - " + HoraHoje;
 
         }
+
 
         private string GetCurrentDate()
         {
@@ -41,7 +51,7 @@ namespace WindowsFormsApp1
         {
             toolStripStatusVersion.Text = "RomanConverter V 1.0 by Paulo Penicheiro";
             toolStripStatusMessages.Text = "Roman Numbers Converter, type a number to convert";
-            toolStripStatusDate.Text = GetCurrentDate();
+            
 
         }
 
