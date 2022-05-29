@@ -159,7 +159,21 @@ namespace WindowsFormsApp1
             {
                 string romanNumber = "";
                 string knownNumber;
-                knownNumber = IsKnownNumber(txtNumToConvert.Text);
+                int number;
+                bool conversion = int.TryParse(txtNumToConvert.Text, out number);
+
+                if (conversion)
+                {
+                    knownNumber = IsKnownNumber(txtNumToConvert.Text);
+                }else
+                {
+                    MessageBox.Show("Must input a number...", "ERROR - CAN ONLY CONVERT NUMBERS", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtNumToConvert.Text = String.Empty;
+                    txtNumToConvert.Focus();
+                    return;
+                }
+                
+                
                 if (knownNumber != "-1")
                 {
                     lblResult.Text = romanNumbers[Int32.Parse(knownNumber)];
