@@ -1,0 +1,15 @@
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MetroFramework.Design.dll
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MetroFramework.dll
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMain.resources
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Paulo\Desktop\RomanNumbers\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
