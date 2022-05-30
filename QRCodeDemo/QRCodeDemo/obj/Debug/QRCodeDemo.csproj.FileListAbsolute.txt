@@ -1,0 +1,12 @@
+E:\PROGRAMMING\C_SHARP\QRCodeDemo\QRCodeDemo\obj\Debug\QRCodeDemo.csprojAssemblyReference.cache
+E:\PROGRAMMING\C_SHARP\QRCodeDemo\QRCodeDemo\obj\Debug\QRCodeDemo.Form1.resources
+E:\PROGRAMMING\C_SHARP\QRCodeDemo\QRCodeDemo\obj\Debug\QRCodeDemo.Properties.Resources.resources
+E:\PROGRAMMING\C_SHARP\QRCodeDemo\QRCodeDemo\obj\Debug\QRCodeDemo.csproj.GenerateResource.cache
+E:\PROGRAMMING\C_SHARP\QRCodeDemo\QRCodeDemo\bin\Debug\QRCodeDemo.exe.config
+E:\PROGRAMMING\C_SHARP\QRCodeDemo\QRCodeDemo\bin\Debug\QRCodeDemo.exe
+E:\PROGRAMMING\C_SHARP\QRCodeDemo\QRCodeDemo\bin\Debug\QRCodeDemo.pdb
+E:\PROGRAMMING\C_SHARP\QRCodeDemo\QRCodeDemo\bin\Debug\QRCoder.dll
+E:\PROGRAMMING\C_SHARP\QRCodeDemo\QRCodeDemo\bin\Debug\System.Drawing.Common.dll
+E:\PROGRAMMING\C_SHARP\QRCodeDemo\QRCodeDemo\obj\Debug\QRCodeDemo.csproj.CopyComplete
+E:\PROGRAMMING\C_SHARP\QRCodeDemo\QRCodeDemo\obj\Debug\QRCodeDemo.exe
+E:\PROGRAMMING\C_SHARP\QRCodeDemo\QRCodeDemo\obj\Debug\QRCodeDemo.pdb

@@ -84,9 +84,9 @@ namespace PapEval
             this.panel1.Controls.Add(this.frmCancel);
             this.panel1.Controls.Add(this.frmSave);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 806);
+            this.panel1.Location = new System.Drawing.Point(0, 756);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(640, 73);
+            this.panel1.Size = new System.Drawing.Size(640, 68);
             this.panel1.TabIndex = 0;
             // 
             // frmCancel
@@ -95,11 +95,11 @@ namespace PapEval
             this.frmCancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.frmCancel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.frmCancel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.frmCancel.Location = new System.Drawing.Point(358, 15);
+            this.frmCancel.Location = new System.Drawing.Point(358, 14);
             this.frmCancel.Name = "frmCancel";
-            this.frmCancel.Size = new System.Drawing.Size(132, 45);
+            this.frmCancel.Size = new System.Drawing.Size(132, 42);
             this.frmCancel.TabIndex = 0;
-            this.frmCancel.Text = "CANCEL";
+            this.frmCancel.Text = "Cancel";
             this.frmCancel.UseVisualStyleBackColor = false;
             this.frmCancel.Click += new System.EventHandler(this.frmCancel_Click);
             // 
@@ -109,11 +109,11 @@ namespace PapEval
             this.frmSave.Cursor = System.Windows.Forms.Cursors.Hand;
             this.frmSave.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.frmSave.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.frmSave.Location = new System.Drawing.Point(496, 15);
+            this.frmSave.Location = new System.Drawing.Point(496, 14);
             this.frmSave.Name = "frmSave";
-            this.frmSave.Size = new System.Drawing.Size(132, 45);
+            this.frmSave.Size = new System.Drawing.Size(132, 42);
             this.frmSave.TabIndex = 0;
-            this.frmSave.Text = "SAVE";
+            this.frmSave.Text = "Save";
             this.frmSave.UseVisualStyleBackColor = false;
             this.frmSave.Click += new System.EventHandler(this.frmSave_Click);
             // 
@@ -126,17 +126,16 @@ namespace PapEval
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(640, 806);
+            this.panel2.Size = new System.Drawing.Size(640, 756);
             this.panel2.TabIndex = 1;
-            this.panel2.Enter += new System.EventHandler(this.panel2_Enter);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.textBox5);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.groupBox2.Location = new System.Drawing.Point(12, 610);
+            this.groupBox2.Location = new System.Drawing.Point(12, 614);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(616, 190);
+            this.groupBox2.Size = new System.Drawing.Size(616, 136);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "OBSERVATIONS";
@@ -144,11 +143,10 @@ namespace PapEval
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox5.Location = new System.Drawing.Point(7, 22);
+            this.textBox5.Location = new System.Drawing.Point(7, 29);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
-            this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox5.Size = new System.Drawing.Size(599, 162);
+            this.textBox5.Size = new System.Drawing.Size(599, 101);
             this.textBox5.TabIndex = 0;
             // 
             // groupBox1
@@ -170,9 +168,9 @@ namespace PapEval
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.groupBox1.Location = new System.Drawing.Point(12, 316);
+            this.groupBox1.Location = new System.Drawing.Point(12, 327);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(616, 288);
+            this.groupBox1.Size = new System.Drawing.Size(616, 270);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "GRADES";
@@ -182,9 +180,9 @@ namespace PapEval
             this.lblFinalGrade.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblFinalGrade.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblFinalGrade.ForeColor = System.Drawing.Color.Gold;
-            this.lblFinalGrade.Location = new System.Drawing.Point(484, 213);
+            this.lblFinalGrade.Location = new System.Drawing.Point(524, 200);
             this.lblFinalGrade.Name = "lblFinalGrade";
-            this.lblFinalGrade.Size = new System.Drawing.Size(100, 54);
+            this.lblFinalGrade.Size = new System.Drawing.Size(60, 51);
             this.lblFinalGrade.TabIndex = 3;
             this.lblFinalGrade.Text = "0";
             this.lblFinalGrade.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -194,9 +192,9 @@ namespace PapEval
             this.lblProject.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblProject.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblProject.ForeColor = System.Drawing.Color.Gold;
-            this.lblProject.Location = new System.Drawing.Point(484, 153);
+            this.lblProject.Location = new System.Drawing.Point(524, 143);
             this.lblProject.Name = "lblProject";
-            this.lblProject.Size = new System.Drawing.Size(100, 54);
+            this.lblProject.Size = new System.Drawing.Size(60, 51);
             this.lblProject.TabIndex = 3;
             this.lblProject.Text = "0";
             this.lblProject.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -206,9 +204,9 @@ namespace PapEval
             this.lblReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblReport.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblReport.ForeColor = System.Drawing.Color.Gold;
-            this.lblReport.Location = new System.Drawing.Point(484, 92);
+            this.lblReport.Location = new System.Drawing.Point(524, 86);
             this.lblReport.Name = "lblReport";
-            this.lblReport.Size = new System.Drawing.Size(100, 54);
+            this.lblReport.Size = new System.Drawing.Size(60, 51);
             this.lblReport.TabIndex = 3;
             this.lblReport.Text = "0";
             this.lblReport.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -218,9 +216,9 @@ namespace PapEval
             this.lblPresentation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblPresentation.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblPresentation.ForeColor = System.Drawing.Color.Gold;
-            this.lblPresentation.Location = new System.Drawing.Point(484, 31);
+            this.lblPresentation.Location = new System.Drawing.Point(524, 29);
             this.lblPresentation.Name = "lblPresentation";
-            this.lblPresentation.Size = new System.Drawing.Size(100, 54);
+            this.lblPresentation.Size = new System.Drawing.Size(60, 51);
             this.lblPresentation.TabIndex = 3;
             this.lblPresentation.Text = "0";
             this.lblPresentation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -228,7 +226,7 @@ namespace PapEval
             // trckFinalGrade
             // 
             this.trckFinalGrade.LargeChange = 1;
-            this.trckFinalGrade.Location = new System.Drawing.Point(217, 225);
+            this.trckFinalGrade.Location = new System.Drawing.Point(217, 211);
             this.trckFinalGrade.Maximum = 20;
             this.trckFinalGrade.Minimum = 1;
             this.trckFinalGrade.Name = "trckFinalGrade";
@@ -240,7 +238,7 @@ namespace PapEval
             // trckproject
             // 
             this.trckproject.LargeChange = 1;
-            this.trckproject.Location = new System.Drawing.Point(217, 165);
+            this.trckproject.Location = new System.Drawing.Point(217, 155);
             this.trckproject.Maximum = 20;
             this.trckproject.Minimum = 1;
             this.trckproject.Name = "trckproject";
@@ -252,7 +250,7 @@ namespace PapEval
             // trckReport
             // 
             this.trckReport.LargeChange = 1;
-            this.trckReport.Location = new System.Drawing.Point(217, 106);
+            this.trckReport.Location = new System.Drawing.Point(217, 99);
             this.trckReport.Maximum = 20;
             this.trckReport.Minimum = 1;
             this.trckReport.Name = "trckReport";
@@ -264,7 +262,7 @@ namespace PapEval
             // trckPresentation
             // 
             this.trckPresentation.LargeChange = 1;
-            this.trckPresentation.Location = new System.Drawing.Point(217, 46);
+            this.trckPresentation.Location = new System.Drawing.Point(217, 43);
             this.trckPresentation.Maximum = 20;
             this.trckPresentation.Minimum = 1;
             this.trckPresentation.Name = "trckPresentation";
@@ -277,9 +275,9 @@ namespace PapEval
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(22, 221);
+            this.pictureBox4.Location = new System.Drawing.Point(22, 207);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(56, 53);
+            this.pictureBox4.Size = new System.Drawing.Size(56, 50);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 1;
             this.pictureBox4.TabStop = false;
@@ -287,9 +285,9 @@ namespace PapEval
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(22, 158);
+            this.pictureBox3.Location = new System.Drawing.Point(22, 148);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(56, 53);
+            this.pictureBox3.Size = new System.Drawing.Size(56, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
@@ -297,9 +295,9 @@ namespace PapEval
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(22, 95);
+            this.pictureBox2.Location = new System.Drawing.Point(22, 89);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(56, 53);
+            this.pictureBox2.Size = new System.Drawing.Size(56, 50);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -307,9 +305,9 @@ namespace PapEval
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(22, 32);
+            this.pictureBox1.Location = new System.Drawing.Point(22, 30);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 53);
+            this.pictureBox1.Size = new System.Drawing.Size(56, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -317,38 +315,38 @@ namespace PapEval
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(84, 174);
+            this.label7.Location = new System.Drawing.Point(84, 163);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(88, 21);
+            this.label7.Size = new System.Drawing.Size(77, 21);
             this.label7.TabIndex = 0;
-            this.label7.Text = "PROJECT *";
+            this.label7.Text = "PROJECT";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(84, 237);
+            this.label6.Location = new System.Drawing.Point(84, 222);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(123, 21);
+            this.label6.Size = new System.Drawing.Size(112, 21);
             this.label6.TabIndex = 0;
-            this.label6.Text = "FINAL GRADE *";
+            this.label6.Text = "FINAL GRADE";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(84, 111);
+            this.label5.Location = new System.Drawing.Point(84, 104);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 21);
+            this.label5.Size = new System.Drawing.Size(70, 21);
             this.label5.TabIndex = 0;
-            this.label5.Text = "REPORT *";
+            this.label5.Text = "REPORT";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(84, 49);
+            this.label4.Location = new System.Drawing.Point(84, 46);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(138, 21);
+            this.label4.Size = new System.Drawing.Size(127, 21);
             this.label4.TabIndex = 0;
-            this.label4.Text = "PRESENTATION *";
+            this.label4.Text = "PRESENTATION";
             // 
             // grpAlunos
             // 
@@ -359,9 +357,9 @@ namespace PapEval
             this.grpAlunos.Controls.Add(this.textBox3);
             this.grpAlunos.Controls.Add(this.textBox2);
             this.grpAlunos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.grpAlunos.Location = new System.Drawing.Point(12, 81);
+            this.grpAlunos.Location = new System.Drawing.Point(12, 100);
             this.grpAlunos.Name = "grpAlunos";
-            this.grpAlunos.Size = new System.Drawing.Size(616, 235);
+            this.grpAlunos.Size = new System.Drawing.Size(616, 220);
             this.grpAlunos.TabIndex = 3;
             this.grpAlunos.TabStop = false;
             this.grpAlunos.Text = "STUDENTS";
@@ -369,7 +367,7 @@ namespace PapEval
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 155);
+            this.label3.Location = new System.Drawing.Point(7, 145);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 21);
             this.label3.TabIndex = 3;
@@ -379,7 +377,7 @@ namespace PapEval
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 93);
+            this.label2.Location = new System.Drawing.Point(7, 87);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 21);
             this.label2.TabIndex = 3;
@@ -389,19 +387,18 @@ namespace PapEval
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 31);
+            this.label1.Location = new System.Drawing.Point(7, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 21);
+            this.label1.Size = new System.Drawing.Size(83, 21);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Student 1 *";
+            this.label1.Text = "Student 1";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox4.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox4.Location = new System.Drawing.Point(6, 181);
+            this.textBox4.Location = new System.Drawing.Point(6, 170);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(600, 27);
             this.textBox4.TabIndex = 2;
@@ -409,9 +406,8 @@ namespace PapEval
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(6, 119);
+            this.textBox3.Location = new System.Drawing.Point(6, 112);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(600, 27);
             this.textBox3.TabIndex = 1;
@@ -419,9 +415,8 @@ namespace PapEval
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(7, 58);
+            this.textBox2.Location = new System.Drawing.Point(7, 54);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(600, 27);
             this.textBox2.TabIndex = 0;
@@ -432,12 +427,12 @@ namespace PapEval
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grpGroupName.Controls.Add(this.textBox1);
             this.grpGroupName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.grpGroupName.Location = new System.Drawing.Point(12, 13);
+            this.grpGroupName.Location = new System.Drawing.Point(12, 12);
             this.grpGroupName.Name = "grpGroupName";
-            this.grpGroupName.Size = new System.Drawing.Size(616, 65);
+            this.grpGroupName.Size = new System.Drawing.Size(616, 82);
             this.grpGroupName.TabIndex = 2;
             this.grpGroupName.TabStop = false;
-            this.grpGroupName.Text = "GROUP NAME *";
+            this.grpGroupName.Text = "GROUP NAME";
             this.grpGroupName.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // textBox1
@@ -445,26 +440,23 @@ namespace PapEval
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(6, 26);
-            this.textBox1.Multiline = true;
+            this.textBox1.Location = new System.Drawing.Point(6, 39);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(601, 23);
+            this.textBox1.Size = new System.Drawing.Size(601, 27);
             this.textBox1.TabIndex = 1;
             // 
             // frmGroup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(640, 879);
+            this.ClientSize = new System.Drawing.Size(640, 824);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "frmGroup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Add Group";
-            this.Shown += new System.EventHandler(this.frmGroup_Shown);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

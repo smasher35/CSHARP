@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "xC+aL8iI0nNwB91SdnTkQLzUEFuA05O3JCxX4Fma1Bu2/Wzaaa1IWbLenFIgz54ir3Np9mdvGJNpcE2lVg5LbA==",
+  "dgSpecHash": "vADYLyRRgL99qgh3smDzSfBoopfpI4oNg0EjFutKh8Oz7hkE0qd9h8pj6uBbTpQ8onnYaZ52mkLYeB+mNSgqZw==",
   "success": true,
-  "projectFilePath": "E:\\PROGRAMING\\CSHARP_APPS\\PapEval\\PapEval\\PapEval\\PapEval.csproj",
+  "projectFilePath": "E:\\PROGRAMMING\\C_SHARP\\PapEval\\PapEval\\PapEval\\PapEval.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\smash\\.nuget\\packages\\metroframework\\1.2.0.3\\metroframework.1.2.0.3.nupkg.sha512",
-    "C:\\Users\\smash\\.nuget\\packages\\metroframework.design\\1.2.0.3\\metroframework.design.1.2.0.3.nupkg.sha512",
-    "C:\\Users\\smash\\.nuget\\packages\\metroframework.fonts\\1.2.0.3\\metroframework.fonts.1.2.0.3.nupkg.sha512",
-    "C:\\Users\\smash\\.nuget\\packages\\metroframework.runtime\\1.2.0.3\\metroframework.runtime.1.2.0.3.nupkg.sha512",
-    "C:\\Users\\smash\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512"
+    "C:\\Users\\Paulo\\.nuget\\packages\\metroframework\\1.2.0.3\\metroframework.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\Paulo\\.nuget\\packages\\metroframework.design\\1.2.0.3\\metroframework.design.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\Paulo\\.nuget\\packages\\metroframework.fonts\\1.2.0.3\\metroframework.fonts.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\Paulo\\.nuget\\packages\\metroframework.runtime\\1.2.0.3\\metroframework.runtime.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\Paulo\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512"
   ],
   "logs": [
     {

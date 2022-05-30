@@ -18,3 +18,10 @@ d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\bin\Debug\BCryptor.ex
 d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\bin\Debug\BCryptor.application
 d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\obj\Debug\BCryptor.exe.manifest
 d:\documents\visual studio 2017\Projects\BCryptor\BCryptor\obj\Debug\BCryptor.application
+E:\PROGRAMING\CSHARP_APPS\BCryptor\BCryptor\obj\Debug\BCryptor.csproj.AssemblyReference.cache
+E:\PROGRAMING\CSHARP_APPS\BCryptor\BCryptor\obj\Debug\BCryptor.csproj.SuggestedBindingRedirects.cache
+E:\PROGRAMING\CSHARP_APPS\BCryptor\BCryptor\obj\Debug\BCryptor.About.resources
+E:\PROGRAMING\CSHARP_APPS\BCryptor\BCryptor\obj\Debug\BCryptor.Properties.Resources.resources
+E:\PROGRAMING\CSHARP_APPS\BCryptor\BCryptor\obj\Debug\BCryptor.csproj.GenerateResource.cache
+E:\PROGRAMING\CSHARP_APPS\BCryptor\BCryptor\obj\Debug\BCryptor.csproj.CoreCompileInputs.cache
+E:\PROGRAMING\CSHARP_APPS\BCryptor\BCryptor\obj\Debug\BCryptor.Form1.resources
