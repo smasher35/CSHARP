@@ -21,7 +21,7 @@ namespace WindowsFormsApp1
     public partial class Form1 : Form
     {
         private string channelID = "UCLNgMNfdksu_r5cwlplenBg";
-        private string APIKey = "AIzaSyBvlAdPNUSwBomkCT1bj_F0k8BySK0fb-8";
+        private string APIKey = "[INSERT GOOGLE API-KEY";
         private string channelTitle;
         private string channelDescription;
         UTF8Encoding utf8 = new UTF8Encoding();
